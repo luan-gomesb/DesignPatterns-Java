@@ -1,6 +1,6 @@
 # Creational
 
-A rograma shoul not depends on how objects are created and arrenged
+A program should not depends on how objects are created and arrenged
 
 Crational patterns provide a ways to create objects
 encapsulate creation details 2  
