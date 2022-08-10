@@ -10,11 +10,11 @@ public class Client {
   public static void main(String[] args) {
 
     FastFood meal = new FastFoodBuilderFluent()
-        .setDrink("Coke")
-        .setEntry("salad")
-        .setFries("Ships")
-        .setMain("burguer")
-        .getFastFood();
+	    .setDrink("Coke")
+	    .setEntry("salad")
+	    .setFries("Ships")
+	    .setMain("burguer")
+	    .getFastFood();
     System.out.println(meal.toString());
     FastFood meal2 = new BurguerAndFriesBuilder().getMeal();
     System.out.println(meal2);
